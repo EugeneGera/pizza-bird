@@ -1,12 +1,13 @@
 import { FC, ReactNode } from "react";
 import { Checkbox } from "../ui/checkbox";
+import { CheckedState } from "@radix-ui/react-checkbox";
 
 export interface FilterCheckboxProps {
   text: string;
   value: string;
   endAdornment?: ReactNode;
-  onCheckedChange?: (checked: boolean) => void;
-  checked?: boolean;
+  onCheckedChange?: (checked: CheckedState) => void;
+  checked?: CheckedState;
 }
 
 export const FilterCheckbox: FC<FilterCheckboxProps> = ({
