@@ -32,7 +32,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 2,
                     name: "Бефстроганов",
                     imageUrl:
                       "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
@@ -40,7 +40,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 3,
                     name: "Бефстроганов",
                     imageUrl:
                       "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
@@ -48,7 +48,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 4,
                     name: "Бефстроганов",
                     imageUrl:
                       "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
@@ -56,7 +56,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 5,
                     name: "Бефстроганов",
                     imageUrl:
                       "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
@@ -64,31 +64,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
-                    name: "Бефстроганов",
-                    imageUrl:
-                      "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
-                    price: 500,
-                    items: [{ price: 550 }],
-                  },
-                  {
-                    id: 1,
-                    name: "Бефстроганов",
-                    imageUrl:
-                      "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
-                    price: 500,
-                    items: [{ price: 550 }],
-                  },
-                  {
-                    id: 1,
-                    name: "Бефстроганов",
-                    imageUrl:
-                      "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
-                    price: 500,
-                    items: [{ price: 550 }],
-                  },
-                  {
-                    id: 1,
+                    id: 6,
                     name: "Бефстроганов",
                     imageUrl:
                       "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
@@ -98,8 +74,9 @@ export default function Home() {
                 ]}
                 title={"Пиццы"}
               />
+
               <ProductsGroupList
-                categoryId={1}
+                categoryId={2}
                 items={[
                   {
                     id: 1,
@@ -110,7 +87,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 2,
                     name: "Бефстроганов",
                     imageUrl:
                       "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
@@ -118,7 +95,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 3,
                     name: "Бефстроганов",
                     imageUrl:
                       "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
@@ -126,7 +103,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 4,
                     name: "Бефстроганов",
                     imageUrl:
                       "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
@@ -134,7 +111,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 5,
                     name: "Бефстроганов",
                     imageUrl:
                       "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
@@ -142,31 +119,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
-                    name: "Бефстроганов",
-                    imageUrl:
-                      "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
-                    price: 500,
-                    items: [{ price: 550 }],
-                  },
-                  {
-                    id: 1,
-                    name: "Бефстроганов",
-                    imageUrl:
-                      "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
-                    price: 500,
-                    items: [{ price: 550 }],
-                  },
-                  {
-                    id: 1,
-                    name: "Бефстроганов",
-                    imageUrl:
-                      "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
-                    price: 500,
-                    items: [{ price: 550 }],
-                  },
-                  {
-                    id: 1,
+                    id: 6,
                     name: "Бефстроганов",
                     imageUrl:
                       "https://media.dodostatic.net/image/r:292x292/11EEF9E43DC39C94AA5765DBF1C97100.avif",
@@ -174,7 +127,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                 ]}
-                title={"Завтрак"}
+                title={"Комбо"}
               />
             </div>
           </div>
